@@ -1,0 +1,9 @@
+services:
+  swaga-bot:
+    build:
+      context: ..
+      dockerfile: task-3/Dockerfile
+    container_name: swaga-bot
+    env_file:
+      - ../task-2/.env
+    restart: unless-stopped
