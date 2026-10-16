@@ -55,7 +55,12 @@ python password_generator.py
 
 ### Как запустить
 
-1. Токен бота 8816191504:AAFYQor15Miy81xP4sFfWgNHBXIFrd_ekGU   @antoshka_ikamnem_vniz_bot (мне лень чет скрывать раз уж это домашка йоу).
+1. Получить токен у [@BotFather](https://t.me/BotFather) и положить его в `task-2/.env`:
+   ```bash
+   cd task-2
+   cp .env.example .env    # и вписать BOT_TOKEN=...
+   ```
+   Файл `.env` в репозиторий не попадает (он в `.gitignore`).
 ---
 2. Установить зависимости и запустить:
    ```bash
